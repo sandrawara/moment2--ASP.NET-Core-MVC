@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>@ViewData["Message"]</h2>
+
+
+<form action="/Home/booklist" method="post">
+    Titel*:<br>
+    <input id ="book" type="text" name="book" placeholder="Skriv bokens titel">
+    <br>
+    Författare*:<br>
+    <input id="author" type="text" name="author" placeholder="Bokens författare">
+    <br> <br>
+    <input class="button" type="submit" value="Skicka">
+</form>
+
+

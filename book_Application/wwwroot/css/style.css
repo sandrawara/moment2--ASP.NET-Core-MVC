@@ -1,0 +1,133 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Noto+Serif+JP&display=swap');
+
+body {
+    background-color: #222;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.125em;
+    line-height: 1.6em;
+    color: #ddd;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+
+.contentImg {
+    /* The image used */
+    max-width: 100%;
+    height: auto;
+   
+    /* Needed to position the navbar */
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Position the navbar container inside the image */
+.containerHead {
+    background-color: rgba(34, 34, 34, 0.85);
+    width: auto;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+    /* Navbar links */
+    .topnav a {
+        color: #ddd;
+        text-align: center;
+        padding: 1.2em;
+        text-decoration: none;
+        font-size: 1.4em;
+        font-family: 'Homemade Apple', cursive;
+    }
+
+a:hover {
+     color: #bd9c84;
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 30%;
+}
+
+input[type=text]:focus {
+    outline: 2px solid #c65c11;
+}
+
+placeholder {
+    color: rgba(189, 156, 132, 0.84);
+}
+.button {
+    width: 100px;
+    height: 45px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+    .button:hover {
+        background-color: #c65c11;
+        box-shadow: 0px 15px 20px #bd9c84;
+        color: #fff;
+        transform: translateY(-7px);
+    }
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+   .table td, .table th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #333;
+    }
+
+    .table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        color: white;
+    }
+
+.readContent {
+    background-color: #333;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Read";
+}
+
+    <div class="readContent">
+
+        <img class="contentImg" alt="Picture of books" src="~/images/grey-and-white-long-coated-cat-in-middle-of-book-son-shelf-156321.jpg" />
+
+        <ol>
+            Veckans lästips:
+            @foreach (var item in (ViewBag.weeklyBook)[0])
+            {
+                <li> @item </li>
+
+            }
+        </ol>
+    </div>

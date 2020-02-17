@@ -1,0 +1,36 @@
+﻿@model IEnumerable<book_Application.Models.Booklist>
+
+@{
+    ViewData["Title"] = "Booklist";
+}
+
+    <h2> @ViewData["Text"]</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Titel <br />
+                  
+                </th>
+                <th>
+                    Författare <br />
+                   
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                   
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author) 
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
